@@ -1,6 +1,7 @@
 # daycounter
-A simple day countdown UI for some friends looking forward to a certain day.
+A simple day countdown UI for some friends looking forward to a certain day... currently 5/5/2025.
 
+Viewable at [https://daycounter-chi.vercel.app](https://daycounter-chi.vercel.app)
 
 ------------
 
