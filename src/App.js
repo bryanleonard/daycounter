@@ -17,7 +17,7 @@ function App() {
       <footer className={'container-fluid text-center py-3 footer'}>
         <ul className={`list-unstyled mb-0`}>
           <li>Built with <span className={`heart`}>♡</span></li>
-          <li>Also, a website shouldn't take 8 years to complete.</li>
+          <li>Websites don't take 8 years to complete.</li>
         </ul>
       </footer>
     </div>
