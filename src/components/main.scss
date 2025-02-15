@@ -1,0 +1,47 @@
+@use '../variables' as *;
+
+.main {
+	font-weight: 300;
+
+	h2 {
+		font-size: 7rem;
+		line-height: 1;
+		font-weight: 300;
+		color: $gray-600;
+	}
+
+	.card {
+		
+		border-radius: 2rem; // Slight rounding for a modern look
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15); // Soft top-down shadow
+		transition: box-shadow 0.3s ease-in-out;
+		min-height: 5vh;
+
+		border: 1px solid transparent; // Necessary for the gradient border trick
+		background-clip: padding-box, border-box;
+		background-origin: border-box;
+		background-image: linear-gradient(white, white), 
+			linear-gradient(180deg, 
+				rgba(240, 200, 255, 1) 0%,  // Soft pinkish-purple
+				rgba(200, 220, 255, 1) 100% // Soft blue
+			);
+
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15); // Subtle drop shadow
+		transition: box-shadow 0.3s ease-in-out;
+
+ 
+	  
+		&:hover {
+		  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2); // Slight lift on hover
+		}
+	}
+
+	.days {
+		font-family: 'Imperial Script', serif;
+		font-size: 9.5rem;
+		font-weight: 400;
+		color: $calm-blue;
+		text-shadow: -0.5px 0.87px 1px rgba(0, 0, 0, 0.25);
+	}
+	  
+}
