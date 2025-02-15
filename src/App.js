@@ -11,7 +11,7 @@ function App() {
       <header className="container-fluid text-center py-3 header">
         <div className="row">
           <div className="col">
-            <h1 className={`m-0`}>Days until decision time...</h1>
+            <h1 className={`m-0`}>Days until...</h1>
           </div>
         </div>
        
