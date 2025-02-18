@@ -1,4 +1,5 @@
 import './main.scss';
+import Quotes from './quotes';
 
 const Main = ({deadline}) => {
 
@@ -17,12 +18,16 @@ const Main = ({deadline}) => {
 					
 					<div className={`card d-flex justify-content-center align-items-center text-center`}>
 						<div className={`card-body p-4`}>
-							<h2><span className={`days`}>{daysRemaining}</span></h2>
+							<h2 className={`m-0`}><span className={`days`}>{daysRemaining}</span></h2>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<Quotes />
 		</main>
+
+		
 
 	)
 }

@@ -1,0 +1,31 @@
+const quotes = [
+	'Every day brings you one step closer.',
+	'The hardest battles lead to the greatest victories.',
+	'You’ve made it this far—keep going!',
+	'Tough times don’t last, but tough people do.',
+	'Your future self will thank you for your persistence.',
+	'You are stronger than your annoyances.',
+	'Progress, no matter how small, is still progress.',
+	'The storm always passes—hold on.',
+	'Every second survived is proof of your strength.',
+	'The best view comes after the hardest climb.',
+	'Keep moving forward—the goal is near.',
+	'Difficult roads often lead to beautiful destinations.',
+	'Your resilience is your superpower.',
+	'It’s always darkest before the dawn.',
+	'You’ve conquered 100% of your hardest days.',
+	'Each moment is a chance to rewrite your story.',
+	'No pressure, no diamonds.',
+	'Believe in the strength that brought you here.',
+	'Your struggles are shaping something incredible.',
+	'Small steps add up to big changes.',
+	'You’re not alone—keep pushing forward.',
+	'You’ve survived everything worklife has thrown at you so far.',
+	'Your future self is cheering you on.',
+	'The only way out is through.',
+	'Better days are coming—one day at a time.',
+	'There should be a social media post about this.',
+	'Congratulations! You’ve made it this far without spontaneously combusting. Might as well keep going.'
+  ];
+
+  export default quotes;

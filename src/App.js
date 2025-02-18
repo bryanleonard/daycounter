@@ -1,6 +1,6 @@
-import './App.scss';
-import './components/main';
-import Main from './components/main';
+import 'App.scss';
+import 'components/main';
+import Main from 'components/main';
 
 function App() {
 
