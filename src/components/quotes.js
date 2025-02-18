@@ -5,9 +5,10 @@ const Quotes = () => {
 
 	const quoteLen = quotes.length;
 	const quotePos = genRandomInt(quoteLen);
+	const quote = quotes[quotePos];
 
 	return (
-		<p className={`mt-3`}>{quotes[quotePos]}</p>
+		<p className={`mt-3`}>{quote}</p>
 	)
 }
 
