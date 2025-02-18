@@ -24,7 +24,12 @@ const Main = ({deadline}) => {
 				</div>
 			</div>
 
-			<Quotes />
+			<div className="row">
+				<div className="col">
+					<Quotes />
+				</div>
+			</div>
+			
 		</main>
 
 		
