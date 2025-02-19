@@ -19,7 +19,7 @@ const QuoteWrapper = () => {
 
 	return (
 		<>
-			<Quotes cssClass={`mt-4`} quote={quote} />
+			<Quotes cssClass={`mt-4 pt-2`} quote={quote} />
 			<NextBtn cssClass={`mt-5`} onClick={getNextQuote} />
 		</>
 	)
