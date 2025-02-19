@@ -1,5 +1,5 @@
 import './main.scss';
-import Quotes from './quotes';
+import QuotesWrapper from './quotewrapper';
 
 const Main = ({deadline}) => {
 
@@ -26,15 +26,13 @@ const Main = ({deadline}) => {
 
 			<div className="row">
 				<div className="col">
-					<Quotes />
+					<QuotesWrapper />
 				</div>
 			</div>
 			
 		</main>
 
-		
-
-	)
-}
+	);
+};
 
 export default Main;

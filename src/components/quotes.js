@@ -1,15 +1,10 @@
-import quotes from 'helpers/quotes';
-import genRandomInt from 'helpers/genRandomInt';
+import { memo } from "react";
 
-const Quotes = () => {
-
-	const quoteLen = quotes.length;
-	const quotePos = genRandomInt(quoteLen);
-	const quote = quotes[quotePos];
-
+const Quotes = memo(({cssClass, quote}) => {
+	
 	return (
-		<p className={`mt-3`}>{quote}</p>
-	)
-}
+		<p className={cssClass}>{quote}</p>		
+	);
+});
 
 export default Quotes;

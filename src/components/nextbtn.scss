@@ -1,0 +1,41 @@
+@use '../variables' as *;
+
+$btn-primary-bg: #b065e6;
+$btn-primary-hover-bg: color-mix(in srgb, $btn-primary-bg 80%, black 20%);
+$btn-primary-active-bg: color-mix(in srgb, $btn-primary-bg 70%, black 30%);
+$btn-primary-text: #ffffff;
+$btn-primary-border: color-mix(in srgb, $btn-primary-bg 90%, black 10%);
+
+.btn-theme {
+  background-color: $btn-primary-bg;
+  border-color: $btn-primary-border;
+  color: $btn-primary-text;
+  font-weight: 400;
+  width: 95%;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+
+  &:hover {
+    background-color: $btn-primary-hover-bg;
+    border-color: color-mix(in srgb, $btn-primary-hover-bg 90%, black 10%);
+    transform: scale(1.05);
+    color: $btn-primary-text;
+  }
+
+  &:active {
+    background-color: $btn-primary-active-bg;
+    border-color: color-mix(in srgb, $btn-primary-active-bg 90%, black 10%);
+    transform: scale(0.98);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($btn-primary-bg, 0.5);
+  }
+}
+
+@media (min-width: 576px) { 
+	.btn-theme {
+		width: auto;
+	}
+}

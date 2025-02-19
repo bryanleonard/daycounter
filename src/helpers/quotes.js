@@ -60,7 +60,28 @@ const quotes = [
 	`You are a limited edition; stop acting like an expired coupon.`,
 	`The only "easy" day was yesterday… and you complained about that too.`,
 	`When you fall into a bottomless pit, you die of starvation.`,
-	`Shoot for the stars. If you fail, at least you'll burn up on re-entry.`
+	`Shoot for the stars. If you fail, at least you'll burn up on re-entry.`,
+	`You're closer than you were yesterday... unless you spent all day procrastinating.`,
+	`Keep pushing forward! If it gets worse, at least it'll make a great story.`,
+	`You didn't come this far to only come this far... but taking a break sounds nice too.`,
+	`Your future self is already rolling their eyes at you. Impress them.`,
+	`Dream big! But also, maybe set an alarm so you actually wake up and do something.`,
+	`Hard work pays off. Eventually. Hopefully. Maybe.`,
+	`Your comfort zone is cozy, but so is a grave. Get moving.`,
+	`The only thing standing between you and success is... well, probably a lot of things, actually.`,
+	`Get up and grind! Or at least get up. Let's start there.`,
+	`You're not failing, you're just collecting data for your comeback.`,
+	`Believe in yourself! Statistically speaking, you're bound to get something right eventually.`,
+	`You got this! And by 'this' I mean another round of problems to deal with.`,
+	`Don't stop now! You're *this* close to a breakthrough… or a breakdown. Either way, exciting!`,
+	`Every expert was once a beginner. So technically, you're right on track for greatness… eventually.`,
+	`Somewhere out there, someone with half your talent is outworking you. But their boss probably trusts them... so there's that.`,
+	`Success is just failing a little less each time. So, congrats on sucking slightly less today!`,
+	`No one else is going to do it for you. Trust me, they've got their own problems.`,
+	`Great things take time. But mediocre things can be done right now—so, you know, get started.`,
+	`You'll never know your full potential until you try… or unless someone finally notices how awesome you are.`,
+	`If motivation isn't working, try spite. Spite gets things done.`,
+	`I know this is exactly what I asked for. I just want to change everything about it.`
   ];
 
   export default quotes;
