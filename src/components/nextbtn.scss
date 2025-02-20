@@ -1,11 +1,5 @@
 @use '../variables' as *;
 
-$btn-primary-bg: #b065e6;
-$btn-primary-hover-bg: color-mix(in srgb, $btn-primary-bg 80%, black 20%);
-$btn-primary-active-bg: color-mix(in srgb, $btn-primary-bg 70%, black 30%);
-$btn-primary-text: #ffffff;
-$btn-primary-border: color-mix(in srgb, $btn-primary-bg 90%, black 10%);
-
 .btn-theme {
   background-color: $btn-primary-bg;
   border-color: $btn-primary-border;

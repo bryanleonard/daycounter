@@ -15,9 +15,9 @@ body {
   color: $blackish;
   font-weight: 200;
   background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 1) 0%,
-    rgba(240, 200, 255, 0.5) 40%,
-    rgba(200, 220, 255, 0.5) 80%
+    $white-rgba,
+    $purple-rgba,
+    $blue-rgba
   );
 }
 
@@ -41,6 +41,7 @@ body {
 
 .footer {
   color: $gray-700;
+  font-size: .9rem;
 
   .heart {
     color: $heart-red;

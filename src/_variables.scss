@@ -22,3 +22,15 @@ $black-transparent: rgba(0, 0, 0, 0.5);
 $heart-red: #e63946;
 $calm-blue: #457b9d;
 
+$btn-primary-bg: #b065e6;
+$btn-primary-hover-bg: color-mix(in srgb, $btn-primary-bg 80%, black 20%);
+$btn-primary-active-bg: color-mix(in srgb, $btn-primary-bg 70%, black 30%);
+$btn-primary-text: #ffffff;
+$btn-primary-border: color-mix(in srgb, $btn-primary-bg 90%, black 10%);
+
+$white-rgba: rgba(255, 255, 255, 1) 0%;
+$purple-rgba: rgba(240, 200, 255, 0.5) 40%;
+$blue-rgba: rgba(200, 220, 255, 0.5) 80%;
+
+$purple100-rgba: rgba(240, 200, 255, 1);  // Soft pinkish-purple
+$blue100-rgba: rgba(200, 220, 255, 1);  // Soft blue

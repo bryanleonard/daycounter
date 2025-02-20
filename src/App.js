@@ -1,8 +1,15 @@
+import { useState } from 'react';
 import 'App.scss';
 import 'components/main';
 import Main from 'components/main';
+import Toggler from 'components/toggler';
 
 function App() {
+  const [isToggled, setIsToggled] = useState(false);
+
+  const handleToggle = (val) => {
+    setIsToggled(val);
+  }
 
   const dDay = new Date('05/05/2025');
 
@@ -17,12 +24,13 @@ function App() {
        
       </header>
 
-      <Main deadline={dDay} />
+      <Main deadline={dDay} isToggled={isToggled} />
 
       <footer className={'container-fluid text-center py-3 footer'}>
         <ul className={`list-unstyled mb-0`}>
+          <li className={`mb-3`}><Toggler isToggled={isToggled} onToggle={handleToggle} /></li>
           <li>Built with <span className={`heart`}>♡</span></li>
-          <li>Websites don't take 8 years to complete.</li>
+          <li>v1.4 | Websites don't take 8 years to complete.</li>
         </ul>
       </footer>
     </div>
