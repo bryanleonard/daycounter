@@ -81,7 +81,9 @@ const quotes = [
 	`Great things take time. But mediocre things can be done right now. So, you know, get started.`,
 	`You'll never know your full potential until you try… or unless someone finally notices how awesome you are.`,
 	`If motivation isn't working, try spite. Spite gets things done.`,
-	`I know this is exactly what I asked for. I just want to change everything about it.`
+	`I know this is exactly what I asked for. I just want to change everything about it.`,
+	`Why the long face? 🐴`,
+	`Have you always had bangs?`
   ];
 
   export default quotes;
