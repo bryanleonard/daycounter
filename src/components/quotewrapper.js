@@ -11,7 +11,7 @@ const QuoteWrapper = ({isToggled}) => {
 	
 	const [quote, setQuote] = useState();
 	const getQuoteList = useCallback(() => (isToggled ? otherQuotes : quotes), [isToggled]);
-	const errMsg = `Whoops! I pooped my pants. 💩`;
+	const errMsg = { type: 'text', content: `Whoops! I pooped my pants. 💩` };
 
 	useEffect(() => {
 		const initialList = getQuoteList();
@@ -47,7 +47,7 @@ const QuoteWrapper = ({isToggled}) => {
 
 	return (
 		<>
-			<Quotes cssClass={`mt-4 pt-2`} quote={quote || 'Loading...'} />
+			<Quotes cssClass={`mt-4 pt-2`} quote={quote || { type: 'text', content: `Loading...` }} />
 			<NextBtn cssClass={`mt-5`} onClick={getNextQuote} />
 		</>
 	)
