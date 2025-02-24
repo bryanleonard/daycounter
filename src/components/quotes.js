@@ -1,4 +1,5 @@
 import { memo } from "react";
+import './main.scss';
 
 const Quotes = memo(({cssClass, quote}) => {
 	
@@ -7,7 +8,7 @@ const Quotes = memo(({cssClass, quote}) => {
 			{quote.type === 'text' ? (
 				<p className={`m-0`}>{quote.content}</p>
 			) : (
-				<img src={quote.content} style={{ maxWidth: '100%', height: 'auto' }} />
+				<img src={quote.content} className={`quoteImg`} />
 			)}
 		</div>
 	);
