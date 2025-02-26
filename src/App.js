@@ -30,7 +30,7 @@ function App() {
         <ul className={`list-unstyled mb-0`}>
           <li className={`mb-3`}><Toggler isToggled={isToggled} onToggle={handleToggle} /></li>
           <li>Built with <span className={`heart`}>♡</span></li>
-          <li>v1.4 | Websites don't take 8 years to complete.</li>
+          <li>v1.6 | Websites don't take 8 years to complete.</li>
         </ul>
       </footer>
     </div>
