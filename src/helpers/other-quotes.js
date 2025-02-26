@@ -48,7 +48,7 @@ const otherQuotes = [
 	{ type: 'image', content: `https://i.imgur.com/RdRY5Lo_d.webp?maxwidth=520&shape=thumb&fidelity=high` },
 	{ type: 'image', content: `https://i.imgur.com/58iOify_d.webp?maxwidth=520&shape=thumb&fidelity=high` },
 	{ type: 'image', content: `https://i.imgur.com/hQQTmzg_d.webp?maxwidth=520&shape=thumb&fidelity=high` },
-	{ type: 'image', content: `https://i.imgur.com/ySo9dVQ.mp4` },
+	{ type: 'image', content: `https://i.kym-cdn.com/photos/images/newsfeed/001/124/041/496.jpg` },
   ];
   
   export default otherQuotes;
