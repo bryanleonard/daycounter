@@ -1,6 +1,31 @@
 const otherQuotes = [
 	{
     type: 'text',
+    content: "I’m listening to a .200 hitter complain about his new bat."
+  },
+	{
+    type: 'text',
+    content: "Cursing is a sign of a weak mind and even weaker character."
+  },
+	{
+    type: 'text',
+    content: "If in doubt, say nothing."
+  },
+
+	{
+    type: 'text',
+    content: "Think real hard before you finish that sentence. It'll determine how well your jaw works for the rest of your life."
+  },
+	{
+    type: 'text',
+    content: "I want to throw you out of a helicopter."
+  },
+	{
+    type: 'text',
+    content: "I'm not a vagrant, I'm a hobo. "
+  },
+	{
+    type: 'text',
     content: "I don't like to be pushed."
   },
   {
