@@ -11,7 +11,7 @@ const Toggler = ({isToggled, onToggle}) => {
 	return (
 		<div className="toggle-container mt-3">
 			<label htmlFor="dataToggle" className="label">
-				Motivational
+				(De)Motivational
 			</label>
 			<label className="switch mx-4">
 				<input type="checkbox" id="dataToggle" 
@@ -20,7 +20,7 @@ const Toggler = ({isToggled, onToggle}) => {
 				<span className="slider"></span>
 			</label>
 			<label htmlFor="dataToggle" className="label">
-				Othervational
+				Reachervational
 			</label>
 		</div>
 	);

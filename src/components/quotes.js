@@ -8,7 +8,7 @@ const Quotes = memo(({cssClass, quote}) => {
 			{quote.type === 'text' ? (
 				<p className={`m-0`}>{quote.content}</p>
 			) : (
-				<img src={quote.content} className={`quoteImg`} />
+				<img src={quote.content} className={`quoteImg`} alt={quote.content} />
 			)}
 		</div>
 	);

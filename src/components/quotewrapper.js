@@ -3,7 +3,7 @@ import { useCallback, useState, useEffect } from 'react';
 import Quotes from './quotes';
 import NextBtn from './nextbtn'
 import quotes from 'helpers/quotes';
-import otherQuotes from 'helpers/other-quotes';
+import otherQuotes from 'helpers/reacher-quotes';
 import genRandomInt from 'helpers/genRandomInt';
 
 const QuoteWrapper = ({isToggled}) => {
