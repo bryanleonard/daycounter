@@ -11,7 +11,7 @@ function App() {
     setIsToggled(val);
   }
 
-  const dDay = new Date('05/05/2025');
+  const dDay = new Date('06/30/2025');
 
   return (
     <div className="app wrapper">
@@ -30,7 +30,7 @@ function App() {
         <ul className={`list-unstyled mb-0`}>
           <li className={`mb-3`}><Toggler isToggled={isToggled} onToggle={handleToggle} /></li>
           <li>Built with <span className={`heart`}>♡</span></li>
-          <li>v1.8 | Websites don't take 8 years to complete.</li>
+          <li>v1.9 | Websites don't take 8 years to complete.</li>
         </ul>
       </footer>
     </div>
